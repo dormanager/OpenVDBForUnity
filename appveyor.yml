@@ -6,7 +6,7 @@ environment:
     PYTHON_ARCH: "32"
 
     CONAN_REFERENCE: "OpenVDBNativePlugin/0.0.1"
-    CONAN_USERNAME: "aminubuntu7"
+    CONAN_USERNAME: "kazuki"
     CONAN_LOGIN_USERNAME: "aminubuntu7@gmail.com"
     CONAN_CHANNEL: "development"
     VS150COMNTOOLS: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\"
