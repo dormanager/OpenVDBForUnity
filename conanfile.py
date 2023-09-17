@@ -5,11 +5,11 @@ from conans import ConanFile, CMake, tools
 
 class OpenVDBNativePluginConan(ConanFile):
     name = "OpenVDBNativePlugin"
-    version = "0.0.1"
+    version = "8.0.1"
     license = "MIT"
     description = "OpenVDBNativePlugin is an open source C++ library for Unity plugin of OpenVDB"
     url = "https://github.com/karasusan/OpenVDBForUnity"
-    requires = ( "OpenVDB/4.0.2@kazuki/stable"
+    requires = ( "OpenVDB/8.0.1"
                )
     generators = "cmake"
     settings = "os", "arch", "compiler", "build_type"
